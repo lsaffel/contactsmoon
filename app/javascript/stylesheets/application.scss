@@ -6,4 +6,8 @@
   @apply px-4 py-2 bg-blue-600 text-white rounded; 
 }
 
+.pulsing-text {
+  @apply animate-pulse font-bold text-gray-200 text-2xl mb-6;
+}
+
 @import "tailwindcss/utilities";
