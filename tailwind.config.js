@@ -3,12 +3,12 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   mode: 'jit',
   purge: {
-  enabled: ["production", "staging"].includes(process.env.NODE_ENV),
-  content: [
-    './**/*.html.erb',
-    './app/helpers/**/*.rb',
-    './app/javascript/**/*.js',
-  ],
+    enabled: ["production", "staging"].includes(process.env.NODE_ENV),
+    content: [
+      './**/*.html.erb',
+      './app/helpers/**/*.rb',
+      './app/javascript/**/*.js',
+    ],
   },
   presets: [],
   darkMode: false, // or 'media' or 'class'

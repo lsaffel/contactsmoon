@@ -57,6 +57,8 @@ module.exports = function(api) {
         '@babel/plugin-transform-runtime',
         {
           helpers: false
+          regenerator: true,
+          corejs: false
         }
       ],
       [
@@ -64,7 +66,8 @@ module.exports = function(api) {
         {
           async: false
         }
-      ]
+      ],
+      ['@babel/plugin-proposal-private-methods', { loose: true }]
     ].filter(Boolean)
   }
 }
