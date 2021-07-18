@@ -240,6 +240,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Inter var',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
