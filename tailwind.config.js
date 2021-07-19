@@ -5,7 +5,7 @@ module.exports = {
   purge: {
     enabled: ["production", "staging"].includes(process.env.NODE_ENV),
     content: [
-      './**/*.html.erb',
+      'app/views/**/*.html.erb',
       './app/helpers/**/*.rb',
       './app/javascript/**/*.js',
     ],
