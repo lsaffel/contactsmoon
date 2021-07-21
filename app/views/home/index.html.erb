@@ -21,8 +21,38 @@
 </div>
 
 
+
+
+
 <div x-data="{ count: 0 }">
     <button x-on:click="count++">Increment</button>
 
     <span x-text="count"></span>
+</div>
+
+
+
+
+<div x-data="{ open: false }">
+    <button @click="open = true">Open Dropdown</button>
+
+    <ul
+        x-show="open"
+        @click.away="open = false"
+    >
+        Dropdown Body
+    </ul>
+</div>
+
+
+
+<div x-data="{ open: false }">
+    <button @mouseenter="open = true">Mouseover Dropdown</button>
+
+    <ul
+        x-show="open"
+        @mouseleave="open = false"
+    >
+        Dropdown Body
+    </ul>
 </div>
