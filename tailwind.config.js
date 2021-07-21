@@ -36,6 +36,7 @@ module.exports = {
       pink: colors.pink,
 
       backgroundrose: '#881337',
+      backgroundlightgray: '#FAFAF9',
     },
     spacing: {
       px: '1px',
