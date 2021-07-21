@@ -2,7 +2,7 @@
 
 <div class="p-20">
   <div class="border shadow p-10">
-    <div class="flex justify-between">
+    <div class="flex justify-between mb-8">
       <div class="text-3xl">Contacts</div>
       <%= link_to 'Add Contact', new_contact_path, class:"px-4 py-2 border" %>
     </div>
@@ -25,9 +25,10 @@
             <td><%= contact.organization %></td>
             <td><%= contact.email_home %></td>
             <td><%= contact.phone_home %></td>
-            <td><%= link_to 'Show', contact %></td>
-            <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
-            <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <!— show edit destroy links were here —!>
+
+              
+            </td>
           </tr>
         <% end %>
       </tbody>
