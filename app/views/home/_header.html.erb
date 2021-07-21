@@ -39,7 +39,7 @@
 				<!— secondary nav —!>
 				<div class="flex items-center">
 					<div x-data="{ open: false }">
-					    <button @mouseenter="open = true">user@example.com</button>
+					    <button @mouseenter="open = true">user@example.com v</button>
 
 					    <ul
 					        x-show="open"
@@ -48,11 +48,6 @@
 					        <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
 					    </ul>
 					</div>
-
-
-
-
-
 
 
 				</div>
