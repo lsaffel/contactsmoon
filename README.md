@@ -16,6 +16,7 @@ Rails 6.1.4
 home page at:
 http://localhost:3000/
 
+Contacts page - edit contact is accessed by clicking on the name of the contact
 
 * System dependencies
 
