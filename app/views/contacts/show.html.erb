@@ -1,39 +1,45 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <%= @contact.full_name %>
-</p>
+<div class="p-20 bg-backgroundlightgray">
+  <div class="border shadow p-10 bg-white">
+    <p>
+      <div class="text-2xl font-bold">
+        <%= @contact.full_name %>
+      </div>
+    </p>
 
-<p>
-  <%= @contact.organization %>
-</p>
+    <p class="border-b-2">
+      <%= @contact.organization %>
+    </p>
 
-<p>  
-  <%= @contact.email_home %>
-  (Home)
-</p>
+    <p>  
+      <%= @contact.email_home %>
+      (Home)
+    </p>
 
-<p>
-  <%= @contact.email_work %>
-  (Work)
+    <p>
+      <%= @contact.email_work %>
+      (Work)
 
-</p>
+    </p>
 
-<p>
-  <%= @contact.phone_home %>
-  (Home)
+    <p>
+      <%= @contact.phone_home %>
+      (Home)
 
-</p>
+    </p>
 
-<p>
-  <%= @contact.phone_mobile %>
-  (Mobile)
-</p>
+    <p>
+      <%= @contact.phone_mobile %>
+      (Mobile)
+    </p>
 
-<p>
-  <strong>Notes:</strong>
-  <%= @contact.notes %>
-</p>
+    <p>
+      <strong>Notes:</strong>
+      <%= @contact.notes %>
+    </p>
 
-<%= link_to 'Edit', edit_contact_path(@contact) %> |
-<%= link_to 'Back', contacts_path %>
+    <%= link_to 'Edit', edit_contact_path(@contact) %> |
+    <%= link_to 'Back', contacts_path %>
+  </div>
+</div>
