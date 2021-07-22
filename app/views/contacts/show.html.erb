@@ -2,19 +2,29 @@
 
 <div class="p-20 bg-backgroundlightgray">
   <div class="border shadow p-10 bg-white">
-    <p>
-      <div class="text-2xl font-bold">
-        <%= @contact.full_name %>
-      </div>
-    </p>
 
-    <p>
-        <%= @contact.organization %>
-    </p>
-    <div>
-        <%= link_to 'Edit', edit_contact_path(@contact) %> |
-        <%= link_to 'Back', contacts_path %>
+    <div class="flex items-center">
+      <div>
+        <p>
+          <div class="text-2xl font-bold">
+            <%= @contact.full_name %>
+          </div>
+        </p>
+
+        <p>
+            <%= @contact.organization %>
+        </p>
+      </div>
+      <div>
+
+        <div>
+            <%= link_to 'Edit', edit_contact_path(@contact) %> |
+            <%= link_to 'Back', contacts_path %>
+        </div>
+      </div> 
     </div>
+
+
 
     <div class="border-t-2">  
       <%= @contact.email_home %>
