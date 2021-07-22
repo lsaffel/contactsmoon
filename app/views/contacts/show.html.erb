@@ -25,34 +25,38 @@
       </div> 
     </div>
 
+    <div class="flex justify-between">
+      <div>
 
 
-    <div class="border-t-2">  
-      <%= @contact.email_home %>
-      (Home)
+        <div class="border-t-2">  
+          <%= @contact.email_home %>
+          (Home)
+        </div>
+
+        <p>
+          <%= @contact.email_work %>
+          (Work)
+
+        </p>
+
+        <p>
+          <%= @contact.phone_home %>
+          (Home)
+
+        </p>
+
+        <p>
+          <%= @contact.phone_mobile %>
+          (Mobile)
+        </p>
+      </div>
+        <p>
+          <strong>Notes:</strong>
+          <%= @contact.notes %>
+        </p>
+      </div>
     </div>
-
-    <p>
-      <%= @contact.email_work %>
-      (Work)
-
-    </p>
-
-    <p>
-      <%= @contact.phone_home %>
-      (Home)
-
-    </p>
-
-    <p>
-      <%= @contact.phone_mobile %>
-      (Mobile)
-    </p>
-
-    <p>
-      <strong>Notes:</strong>
-      <%= @contact.notes %>
-    </p>
 
 
   </div>
