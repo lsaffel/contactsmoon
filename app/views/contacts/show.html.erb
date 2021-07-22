@@ -3,7 +3,7 @@
 <div class="p-20 bg-backgroundlightgray">
   <div class="border shadow p-10 bg-white">
 
-    <div class="flex items-center">
+    <div class="flex items-center justify-between">
       <div>
         <p>
           <div class="text-2xl font-bold">
@@ -18,8 +18,9 @@
       <div>
 
         <div>
-            <%= link_to 'Edit', edit_contact_path(@contact) %> |
-            <%= link_to 'Back', contacts_path %>
+            <%= link_to 'Back', contacts_path %> |
+            <%= link_to 'Edit', edit_contact_path(@contact) %>
+
         </div>
       </div> 
     </div>
