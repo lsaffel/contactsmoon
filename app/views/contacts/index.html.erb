@@ -21,7 +21,7 @@
       <tbody>
         <% @contacts.each do |contact| %>
           <tr>
-            <td><%= contact.full_name %></td>
+            <td><%= link_to contact.full_name, contact, class:"underline hover:text-gray-500" %></td>
             <td><%= contact.organization %></td>
             <td><%= contact.email_home %></td>
             <td><%= contact.phone_home %></td>
