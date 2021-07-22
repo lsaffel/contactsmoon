@@ -13,6 +13,9 @@ Things you may want to cover:
 ruby 3.0.2
 Rails 6.1.4
 
+home page at:
+http://localhost:3000/
+
 * System dependencies
 
 * Configuration
