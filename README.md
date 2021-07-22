@@ -3,9 +3,15 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+Runs with two terminal windows:
+rails s
+bin/webpack-dev-server
+
 Things you may want to cover:
 
 * Ruby version
+ruby 3.0.2
+Rails 6.1.4
 
 * System dependencies
 
