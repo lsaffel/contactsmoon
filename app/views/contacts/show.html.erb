@@ -8,14 +8,18 @@
       </div>
     </p>
 
-    <p class="border-b-2">
-      <%= @contact.organization %>
+    <p>
+        <%= @contact.organization %>
     </p>
+    <div>
+        <%= link_to 'Edit', edit_contact_path(@contact) %> |
+        <%= link_to 'Back', contacts_path %>
+    </div>
 
-    <p>  
+    <div class="border-t-2">  
       <%= @contact.email_home %>
       (Home)
-    </p>
+    </div>
 
     <p>
       <%= @contact.email_work %>
@@ -39,7 +43,6 @@
       <%= @contact.notes %>
     </p>
 
-    <%= link_to 'Edit', edit_contact_path(@contact) %> |
-    <%= link_to 'Back', contacts_path %>
+
   </div>
 </div>
