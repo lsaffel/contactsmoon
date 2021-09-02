@@ -3,9 +3,9 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   mode: 'jit',
   purge: {
-    enabled: ["production", "staging"].includes(process.env.NODE_ENV),
+    enabled: false,
     content: [
-      'app/views/**/*.html.erb',
+      './app/views/**/*.html.erb',
       './app/helpers/**/*.rb',
       './app/javascript/**/*.js',
     ],
