@@ -15,4 +15,4 @@ Turbolinks.start()
 ActiveStorage.start()
 
 window.Alpine = Alpine
-Alpine.start()
+document.addEventListener('DOMContentLoaded', Alpine.start)
