@@ -32,4 +32,4 @@ Contacts page - edit contact is accessed by clicking on the name of the contact
 
 * Deployment instructions
 
-* ...
+* ... test line here
