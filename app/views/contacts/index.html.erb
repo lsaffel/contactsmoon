@@ -22,11 +22,11 @@
       <tbody>
         <% @contacts.each do |contact| %>
           <tr>
-            <td><%= link_to contact.full_name, contact, class:"underline hover:text-gray-500" %></td>
+            <td><%= link_to contact.full_name, contact, class:"font-bold text-blue-700 underline hover:text-blue-500" %></td>
             <td><%= contact.organization %></td>
             <td><%= contact.email_home %></td>
             <td><%= contact.phone_home %></td>    
-            <td><%= link_to 'Delete this contact', contact, class:"text-red-600 px-1 py-1 border hover:text-red-800", method: :delete, data: { confirm: 'Are you sure?' } %></td>     
+            <td><%= link_to 'Delete', contact, class:"text-red-600 px-1 py-1 border hover:text-red-800", method: :delete, data: { confirm: 'Are you sure?' } %></td>     
           </tr>
         <% end %>
       </tbody>
