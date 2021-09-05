@@ -11,42 +11,75 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :full_name %>
-    <%= form.text_field :full_name %>
+  <div class="w-full max-w-sm">
+    <div class="field md:flex md:items-center mb-4">
+      <div class="w-1/3">
+        <%= form.label :full_name %>
+      </div>
+      <div class="w-1/2">
+        <%= form.text_field :full_name %>
+      </div>
+    </div>
+
+    <div class="field md:flex md:items-center mb-4">
+      <div class="w-1/3">
+        <%= form.label :organization %>
+      </div>
+      <div class="w-1/2">
+        <%= form.text_field :organization %>
+      </div>
+    </div>
+
+    <div class="field md:flex md:items-center mb-4">
+      <div class="w-1/3">
+        <%= form.label :email_home %>
+      </div>
+      <div class="w-1/2">
+        <%= form.text_field :email_home %>
+      </div>
+    </div>
+
+    <div class="field md:flex md:items-center mb-4">
+      <div class="w-1/3">
+        <%= form.label :email_work %>
+      </div>
+      <div class="w-1/2">
+        <%= form.text_field :email_work %>
+      </div>
+    </div>
+
+    <div class="field md:flex md:items-center mb-4">
+      <div class="w-1/3">
+        <%= form.label :phone_home %>
+      </div>
+      <div class="w-1/2">
+        <%= form.text_field :phone_home %>
+      </div>
+    </div>
+
+    <div class="field md:flex md:items-center mb-4">
+      <div class="w-1/3">
+        <%= form.label :phone_mobile %>
+      </div>
+      <div class="w-1/2">
+        <%= form.text_field :phone_mobile %>
+      </div>
+    </div>
+
+    <div class="field md:flex md:items-center mb-4">
+      <div class="w-1/3">
+        <%= form.label :notes %>
+      </div>
+      <div class="w-1/2">
+        <%= form.text_field :notes %>
+      </div>
+    </div>
+
+    </br>
+    <div class="actions">
+      <%= form.submit %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :organization %>
-    <%= form.text_field :organization %>
-  </div>
 
-  <div class="field">
-    <%= form.label :email_home %>
-    <%= form.text_field :email_home %>
-  </div>
-
-  <div class="field">
-    <%= form.label :email_work %>
-    <%= form.text_field :email_work %>
-  </div>
-
-  <div class="field">
-    <%= form.label :phone_home %>
-    <%= form.text_field :phone_home %>
-  </div>
-
-  <div class="field">
-    <%= form.label :phone_mobile %>
-    <%= form.text_field :phone_mobile %>
-  </div>
-
-  <div class="field">
-    <%= form.label :notes %>
-    <%= form.text_field :notes %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
 <% end %>
