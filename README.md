@@ -1,35 +1,43 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails project with AlpineJS and TailwindCSS, PostGres database.
+
+Deployed live at:
+https://desolate-tundra-11488.herokuapp.com/contacts
+
+Contacts management
+Displays a list of contacts
+Edit, delete, display or add a contact
+Sign in, sign out, create an account
+Nav bar created with TailwindCSS
 
 Runs with two terminal windows:
-rails s
+rails s\n
 bin/webpack-dev-server
 
-Things you may want to cover:
+Software versions:
 
-* Ruby version
-ruby 3.0.2
-Rails 6.1.4
+- Ruby version
+  ruby 3.0.2
+  Rails 6.1.4
 
-home page at:
+Go to the home page of this project by going to:
 http://localhost:3000/
 
 Contacts page - edit contact is accessed by clicking on the name of the contact
 
-* System dependencies
+- System dependencies
 
-* Configuration
+- Configuration
 
-* Database creation
+- Database creation
 
-* Database initialization
+- Database initialization
 
-* How to run the test suite
+- How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+- Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+- Deployment instructions
 
-* ... 
+- ...
