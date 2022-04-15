@@ -25,19 +25,3 @@ Go to the home page of this project by going to:
 http://localhost:3000/
 
 Contacts page - edit contact is accessed by clicking on the name of the contact
-
-- System dependencies
-
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
