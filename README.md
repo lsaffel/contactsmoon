@@ -2,9 +2,6 @@
 
 Ruby on Rails project with AlpineJS and TailwindCSS, PostGres database.
 
-Deployed live at:
-https://desolate-tundra-11488.herokuapp.com/contacts
-
 Contacts management
 Displays a list of contacts
 Edit, delete, display or add a contact
